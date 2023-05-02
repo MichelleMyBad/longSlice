@@ -13,7 +13,7 @@ int[] prodotti = new int[lengmnspan+1];
 ```
 Nell'esempio qui sopra <b><i>digits</i></b> rappresenta la nostra stringa mentre <b><i>span</i></b> la lunghezza della sottostringa; la lunghezza di <b><i>prodotti</i></b> deve essere di <b><i>lengmnspan</i></b> in quanto sarà quella la quantità di prodotti ottenuti.
 <br>
-<img src="https://user-images.githubusercontent.com/127590227/235717404-71f4ed26-04ae-4a5a-8c6f-6a1737fd5a73.png" width="500" heigth="250">  
+<img src="https://user-images.githubusercontent.com/127590227/235739075-198e00c4-fe6f-4d8e-8b7e-b5edaf07af8e.PNG" width="500" heigth="250">  
 </details>
 
 <details>
