@@ -6,6 +6,7 @@
 ## Descizione soluzione utilizzata
 <details>
 <summary>Creazione di un contenitore per tutti i prodotti che otterremo.</summary>
+ 
 ```
 int lengmnspan=digits.Length-span;      //Lunghezzza stringa - lunghezza sottostringa
 int[] prodotti = new int[lengmnspan+1]; 
@@ -16,7 +17,7 @@ Nell'esempio qui sopra <b><i>digits</i></b> rappresenta la nostra stringa mentre
 </details>
 
 <details>
-<summary>Creazione di altre variabili utili al programma</summary>
+<summary>Creazione di altre variabili utili al programma.</summary>
  
 ```
 int i,j;        //Indici
@@ -61,7 +62,7 @@ Qui eseguiamo un semplice controllo tramite .IsNumber() per ogni carattere di <b
 </details>
 
 <details>
-<summary>Controllo della conformità della stringa prima di iniziare a lavorarci sopra</summary>
+<summary>Controllo della conformità della stringa prima di iniziare a lavorarci sopra.</summary>
   
  ```
 if(span>0&&soloNum==true&&digits!=""&&span<=len){
@@ -70,7 +71,7 @@ Qui controlliamo che <b><i>span</i></b> sia maggiore di 0, che siano presenti so
 </details>
 
 <details>
-<summary>Riempimento del vettore dedito ai prodotti</summary>
+<summary>Riempimento del vettore dedito ai prodotti.</summary>
   
 ```
 //Riempio prodotti di 1
@@ -91,7 +92,7 @@ for(i=0;i<=lengmnspan;i++){
 </details>
 
 <details>
-<summary>Ricerca del prodotto maggiore</summary>
+<summary>Ricerca del prodotto maggiore.</summary>
   
 ```
 maggiore=prodotti[0];
@@ -106,7 +107,7 @@ In questa parte di codice inizialmente assegniamo il contenuto di <b><i>prodotti
 </details>
 
 <details>
-<summary>Aggiunta del <i>return</i></summary>
+<summary>Aggiunta del <i>return</i>.</summary>
  
 ```
       return maggiore;
