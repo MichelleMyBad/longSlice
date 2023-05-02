@@ -88,7 +88,7 @@ for(i=0;i<=lengmnspan;i++){
   }
 }
 ```
-  Nel primo <i>for</i> riempiamo il vettore di 1, in modo da poter calcolare poi i prodotti nel secondo <i>for</i>. 
+  Nel primo <i>for</i> riempiamo il vettore di 1, in modo da poter poi calcolare e inserire i prodotti all'interno di <b><i>prodotti</i></b> tramite il secondo <i>for</i>. 
 </details>
 
 <details>
