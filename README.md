@@ -52,7 +52,7 @@ Qui eseguiamo un semplice controllo tramite .IsNumber() per ogni carattere di <b
 </details>
 
 <details>
-<summary>Assegniamo ad una variabile il risultato della funzione <b><i>CheckNumero</i></b>.</summary>
+<summary>Assegnamento ad una variabile del risultato della funzione <b><i>CheckNumero</i></b>.</summary>
   
  ```
  bool soloNum = CheckNumero(digits);
