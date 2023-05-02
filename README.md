@@ -70,7 +70,7 @@ Qui controlliamo che <b><i>span</i></b> sia maggiore di 0, che siano presenti so
 </details>
 
 <details>
-<summary>Riempiamo il vettore dedito ai prodotti</summary>
+<summary>Riempimento del vettore dedito ai prodotti</summary>
   
 ```
 //Riempio prodotti di 1
@@ -91,7 +91,7 @@ for(i=0;i<=lengmnspan;i++){
 </details>
 
 <details>
-<summary>Cerchiamo il prodotto maggiore</summary>
+<summary>Ricerca del prodotto maggiore</summary>
   
 ```
 maggiore=prodotti[0];
@@ -106,7 +106,7 @@ In questa parte di codice inizialmente assegniamo il contenuto di <b><i>prodotti
 </details>
 
 <details>
-<summary>Aggiungiamo il <i>return</i></summary>
+<summary>Aggiunta del <i>return</i></summary>
  
 ```
       return maggiore;
