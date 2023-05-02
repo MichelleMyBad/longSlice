@@ -120,7 +120,7 @@ else{
     throw new ArgumentException();
 }
 ```
-L'ultima cosa che ci rimane da fare è ritornare al programma il prodotto maggiore, chiudendo poi l'<i>if</i> iniziato nel quinto punto. Inseriamo delle condizioni finali per i casi speciali: in caso <b><i>span</i></b> sia uguale a 0 ritorneremo 1 (per richiesta dell'esercizio) altrimenti, in caso questa condizione non fosse vera e la stringa non rispetta le condizioni dell'<i>if</i> prima citato, ritorneremo un <i>ArgumentException()</i>. 
+L'ultima cosa che ci rimane da fare è ritornare al programma il prodotto maggiore, per poi chiudere l'<i>if</i> iniziato nel quinto punto. Inseriamo delle condizioni finali per i casi speciali: in caso <b><i>span</i></b> sia uguale a 0 ritorneremo 1 (per richiesta dell'esercizio) altrimenti, in caso questa condizione non fosse vera e la stringa non rispetta le condizioni dell'<i>if</i> prima citato, ritorneremo un <i>ArgumentException()</i>. 
 </details>
 
 
