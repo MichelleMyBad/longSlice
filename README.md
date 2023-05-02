@@ -7,7 +7,7 @@
 <details>
 <summary>Creazione di un contenitore per tutti i prodotti che otterremo.</summary>
  
-```
+```c#
 int lengmnspan=digits.Length-span;      //Lunghezzza stringa - lunghezza sottostringa
 int[] prodotti = new int[lengmnspan+1]; 
 ```
