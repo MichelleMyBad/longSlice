@@ -28,7 +28,7 @@ Le variabili create ci serviranno successivamente, le prime sono degli indici, a
 </details>
 
 <details>
-<summary>Dichiarazione di una funzione in grado di controllare se la nostra stringa è composta unicamente da numeri che chiameremo <b><i>CheckNumero</i></b>.</summary>
+<summary>Dichiarazione di una funzione, che chiameremo <b><i>CheckNumero</i></b>, in grado di controllare se la nostra stringa è composta unicamente da numeri.</summary>
   
 ```
 public static bool CheckNumero(string digits)
