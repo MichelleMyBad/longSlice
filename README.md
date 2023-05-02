@@ -58,7 +58,7 @@ Qui eseguiamo un semplice controllo tramite .IsNumber() per ogni carattere di <b
  ```
  bool soloNum = CheckNumero(digits);
  ```
- In questo modo in caso non siano presenti soltanto numeri, <b><i>soloNum</i></b> risulterà <i>false</i>.
+ In questo modo in caso non siano presenti soltanto numeri, <b><i>soloNum</i></b> risulterà <i>false</i> segnalandocelo.
 </details>
 
 <details>
