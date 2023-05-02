@@ -1,7 +1,7 @@
 # longSlice
 
 ## Descrizione esecizio
-#### Esercizio C# in console che, data una stringa composta solo cifre, calcola il prodotto maggiore ottenibile per una sua sottostringa contigua di cifre di lunghezza N; in caso la lunghezza della sottostringa sia 0 ritornare 1.
+#### Esercizio C# in console che, data una stringa composta solo da cifre, calcola il prodotto maggiore ottenibile per una sua sottostringa contigua di cifre di lunghezza N; in caso la lunghezza della sottostringa sia 0 ritornare 1.
 
 ## Descizione soluzione utilizzata
 <details>
