@@ -16,7 +16,7 @@ Nell'esempio qui sopra <b><i>digits</i></b> rappresenta la nostra stringa mentre
 </details>
 
 <details>
-<summary>Creiamo altre variabili utili</summary>
+<summary>Creazione di altre variabili utili al programma</summary>
  
 ```
 int i,j;        //Indici
@@ -28,7 +28,7 @@ Le variabili create ci serviranno successivamente, le prime sono degli indici, a
 </details>
 
 <details>
-<summary>Creiamo poi una funzione in grado di controllare se la nostra stringa è composta unicamente da numeri che chiameremo <b><i>CheckNumero</i></b>.</summary>
+<summary>Dichiarazione di una funzione in grado di controllare se la nostra stringa è composta unicamente da numeri che chiameremo <b><i>CheckNumero</i></b>.</summary>
   
 ```
 public static bool CheckNumero(string digits)
