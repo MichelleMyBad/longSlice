@@ -67,7 +67,7 @@ Qui eseguiamo un semplice controllo tramite .IsNumber() per ogni carattere di <b
  ```
 if(span>0&&soloNum==true&&digits!=""&&span<=len){
  ```
-Qui controlliamo che <b><i>span</i></b> sia maggiore di 0, che siano presenti solo numeri, che digits non sia vuota e che <b><i>span</i></b> non superi la lunghezza della stringa, di modo da essere sicuri di poter andare avanti con l'esercizio.
+Qui controlliamo che <b><i>span</i></b> sia maggiore di 0, che siano presenti solo numeri, che <b><i>digits</i></b> non sia vuota e che <b><i>span</i></b> non superi la lunghezza della stringa, di modo da essere sicuri di poter andare avanti con l'esercizio.
 </details>
 
 <details>
