@@ -5,7 +5,7 @@
 
 ## Descizione soluzione utilizzata
 <details>
-<summary>Prima di tutto dobbiamo creare un contenitore per tutti i prodotti che otterremo.</summary>
+<summary>Creazione di un contenitore per tutti i prodotti che otterremo.</summary>
 ```
 int lengmnspan=digits.Length-span;      //Lunghezzza stringa - lunghezza sottostringa
 int[] prodotti = new int[lengmnspan+1]; 
