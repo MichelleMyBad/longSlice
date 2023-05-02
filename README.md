@@ -19,7 +19,7 @@ Nell'esempio qui sopra <b><i>digits</i></b> rappresenta la nostra stringa mentre
 <details>
 <summary>Creazione di altre variabili utili al programma.</summary>
  
-```
+```c#
 int i,j;        //Indici
 int maggiore;
 int len=digits.Length;
@@ -31,7 +31,7 @@ Le variabili create ci serviranno successivamente, le prime sono degli indici, a
 <details>
 <summary>Dichiarazione di una funzione, che chiameremo <b><i>CheckNumero</i></b>, in grado di controllare se la nostra stringa è composta unicamente da numeri.</summary>
   
-```
+```c#
 public static bool CheckNumero(string digits)
 {
   //Dichiarazione variabili
@@ -55,7 +55,7 @@ Qui eseguiamo un semplice controllo tramite .IsNumber() per ogni carattere di <b
 <details>
 <summary>Assegnamento ad una variabile del risultato della funzione <b><i>CheckNumero</i></b>.</summary>
   
- ```
+ ```c#
  bool soloNum = CheckNumero(digits);
  ```
  In questo modo in caso non siano presenti soltanto numeri, <b><i>soloNum</i></b> risulterà <i>false</i> segnalandocelo.
@@ -64,7 +64,7 @@ Qui eseguiamo un semplice controllo tramite .IsNumber() per ogni carattere di <b
 <details>
 <summary>Controllo della conformità della stringa prima di iniziare a lavorarci sopra.</summary>
   
- ```
+ ```c#
 if(span>0&&soloNum==true&&digits!=""&&span<=len){
  ```
 Qui controlliamo che <b><i>span</i></b> sia maggiore di 0, che siano presenti solo numeri, che <b><i>digits</i></b> non sia vuota e che <b><i>span</i></b> non superi la lunghezza della stringa, di modo da essere sicuri di poter andare avanti con l'esercizio.
@@ -73,7 +73,7 @@ Qui controlliamo che <b><i>span</i></b> sia maggiore di 0, che siano presenti so
 <details>
 <summary>Riempimento del vettore dedito ai prodotti.</summary>
   
-```
+```c#
 //Riempio prodotti di 1
 for(i=0;i<=lengmnspan;i++){
   for(j=i;j<i+span;j++){
@@ -94,7 +94,7 @@ for(i=0;i<=lengmnspan;i++){
 <details>
 <summary>Ricerca del prodotto maggiore.</summary>
   
-```
+```c#
 maggiore=prodotti[0];
 
 for(i=1;i<lengmnspan+1;i++){
@@ -109,7 +109,7 @@ In questa parte di codice inizialmente assegniamo il contenuto di <b><i>prodotti
 <details>
 <summary>Aggiunta del <i>return</i> e condizioni per i casi particolari.</summary>
  
-```
+```c#
       return maggiore;
 }
 
