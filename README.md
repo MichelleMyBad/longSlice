@@ -61,7 +61,7 @@ Qui eseguiamo un semplice controllo tramite .IsNumber() per ogni carattere di <b
 </details>
 
 <details>
-<summary>Eseguiamo un controllo prima di iniziare a lavorare sulla stringa</summary>
+<summary>Controllo della conformità della stringa prima di iniziare a lavorarci sopra</summary>
   
  ```
 if(span>0&&soloNum==true&&digits!=""&&span<=len){
