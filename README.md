@@ -49,7 +49,7 @@ public static bool CheckNumero(string digits)
   return numero;
 }
 ```
-Qui eseguiamo un semplice controllo tramite .IsNumber() per ogni carattere di <b><i>digits</i></b>.
+Qui eseguiamo un semplice controllo tramite .IsNumber() per ogni carattere di <b><i>digits</i></b>. Appena viene rilevato un carattere diverso da un numero il programma uscirà dal <i>for</i> per poi ritornare <b><i>numero</i></b> che, in questo caso, sarà uguale a <i>false</i>.
 </details>
 
 <details>
