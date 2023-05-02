@@ -103,7 +103,7 @@ for(i=1;i<lengmnspan+1;i++){
     }
 }
 ```
-In questa parte di codice inizialmente assegniamo il contenuto di <b><i>prodotti[0]</i></b> a <b><i>maggiore</i></b>, di modo da avere qualcosa da confrontare quando, nel <i>for</i> successivo andremo a confrontare il resto dei componenti di <b><i>prodotti</i></b> con <b><i>maggiore</i></b>, aggiornando la variabile qualora trovassimo un prodotto più grande.
+In questa parte di codice inizialmente assegniamo il contenuto di <b><i>prodotti[0]</i></b> a <b><i>maggiore</i></b>, di modo da avere qualcosa da confrontare quando, nel <i>for</i> successivo, andremo a confrontare il resto dei componenti di <b><i>prodotti</i></b> con il contenuto di <b><i>maggiore</i></b>, aggiornando la variabile qualora trovassimo un prodotto più grande.
 </details>
 
 <details>
